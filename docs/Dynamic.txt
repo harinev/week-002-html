@@ -1,0 +1,10 @@
+Dynamic parts of UI
+
+* Things to do:
+	-How many will the items have
+*Task rows:
+	-We can't predict how many todo list it'll be created. 
+	-If they want to modify/amend the task, what's the opion for that?
+	-If many rows to be given, do we have to scroll down or up/page next or prev?
+	-sort the list as per priority or date or alphabetical or asper input order?
+	-filter the list
