@@ -8,7 +8,15 @@ h1 {
 form {
     width: 30%;
     float: center;
-    
+    margin: 0px;
+}
+
+.formtext{
+    background-color: lavender;
+    border: 0;
+    width: 50%;
+    height: 30px;
+
 }
 form:-ms-input-placeholder {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,6 +33,7 @@ span{
 button {
     background-color: pink;
     border-radius: 11px;
+    size: 90px;
 }
 button:hover {
     cursor: pointer;
