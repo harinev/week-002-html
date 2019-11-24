@@ -11,6 +11,10 @@ table {
     font-family:Lucida, sans-serif;
     margin:15px;
 }
+button {
+    background-color: pink;
+    border-radius: 11px;
+}
 button:hover{
     cursor: pointer;
     background-color:#FFE64F;
