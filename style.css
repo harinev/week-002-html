@@ -5,17 +5,28 @@ body {
 h1 {
     font-family:Comic Sans, Comic Sans MS, cursive  ;
 }
-
+form {
+    width: 30%;
+    float: center;
+    
+}
+form:-ms-input-placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 table {
     font-size: medium;
     font-family:Lucida, sans-serif;
     margin:15px;
 }
+span{
+    font-size: 33px;
+    font-style: italic;
+}
 button {
     background-color: pink;
     border-radius: 11px;
 }
-button:hover{
+button:hover {
     cursor: pointer;
     background-color:#FFE64F;
     font-family:Comic Sans, Comic Sans MS, cursive ; 
