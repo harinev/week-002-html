@@ -1,0 +1,18 @@
+body {
+    background-color: #62DFFF;
+}
+
+h1 {
+    font-family:Comic Sans, Comic Sans MS, cursive  ;
+}
+
+table {
+    font-size: medium;
+    font-family:Lucida, sans-serif;
+    margin:15px;
+}
+button:hover{
+    cursor: pointer;
+    background-color:#FFE64F;
+    font-family:Comic Sans, Comic Sans MS, cursive ; 
+}
