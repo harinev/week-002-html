@@ -1,3 +1,17 @@
+@media (min-width: 39.125em) { }
+
+@media (min-width: 30em) { }
+
+@media (max-width: 39.0625em) { }
+
+@media (min-width: 39.125em) { }
+
+@media (min-width: 60em) { }
+
+@media (min-width: 75em) { }
+
+
+
 body {
     background-color: #62DFFF;
 }
@@ -21,22 +35,20 @@ form {
 form:-ms-input-placeholder {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-table {
-    font-size: medium;
-    font-family:Lucida, sans-serif;
-    margin:15px;
-}
+
 span{
     font-size: 33px;
     font-style: italic;
 }
 button {
-    background-color: pink;
+    background-color: whitesmoke;
+    color: brown;
     border-radius: 11px;
     size: 90px;
 }
 button:hover {
     cursor: pointer;
-    background-color:#FFE64F;
+    background-color:black;
+    color: white;
     font-family:Comic Sans, Comic Sans MS, cursive ; 
 }

@@ -1,57 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Harine's ToDo List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <div>
-        <br /> 
-    <h1> <center>Harine's To Do Application</center></h1>
+        <br />
+        <h1>
+            <center>Harine's Task Sheet</center>
+        </h1>
     </div>
-    
+
     <hr />
     <br>
     <br>
 
     <div>
-    <form>
-        <!--<fieldset> -->
-          <div>
-            <center>
-            <input type="text" placeholder="Add your list here" class="formtext"/>
-            <button>Add</button>
-        </center>
-        </div>
-        <!--</fieldset> -->
-        </form> 
-    </div> 
-    <div>  
-        <p>
-        <h3> 
-        
-            <strong> THINGS TO DO: <span>2</span></b><strong>
-        </h3>
-        </p>
+        <form>
+
+            <div>
+                <center>
+                <input type="text" placeholder="Add your list here" class="formtext" />
+                <button><center>Add</center></button>
+            </center>
+            </div>
+            <!--</fieldset> -->
+        </form>
     </div>
     <div>
-        <table>
-            <tbody>
-                <tr>
-                    <td width ="50%"> Do Homework </td> 
-                    <td><button>Add</button></td> 
-                    <td> <button>Delete</button></td>        
-                </tr>
-                <tr>
-                    <td width ="50%"> Practice Techreturners</td>
-                    <td><button>Add</button></td> 
-                <td> <button>Delete</button></td>
-                </tr>
-            </tbody>
-        </table>
+        <p>
+            <h3>
+
+                 What would you like to view? </b>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Todo">
+                            <label class="form-check-label" for="inlineCheckbox1">Todo</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Done">
+                            <label class="form-check-label" for="inlineCheckbox2">Done</label>
+                        </div>
+                        <input class="btn btn-primary" type="submit" value="Submit">
+            </h3>
+        </p>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <p>Todo things </p>
+                <div class="col-12 col-6">
+                    <div class="col-6">
+                        Fist item
+                    
+                    <div class="col-3">
+                        <button>Done</button>
+                    </div>
+                </div>
+                    <div class="col-3">
+                        <button>Delete</button>
+                    </div>
+                    <div class="col-6">
+                        Second item
+                    </div>
+                    <div class="col-3">
+                        <button>Done</button>
+                    </div>
+                    <div class="col-3">
+                        <button>Delete</button>
+                    </div>
+                    <div class="col-6">
+                        Third item
+                    </div>
+                    <div class="col-3">
+                        <button>Done</button>
+                    </div>
+                    <div class="col-3">
+                        <button>Delete</button>
+                    </div>
+                </div>
+                Completed Tasks
+                <div class="col-12 col-6">
+                        <div class="col-6">
+                            Fist item
+                        </div>
+                        <div class="col-3">
+                            <button>Done</button>
+                        </div>
+                        <div class="col-3">
+                            <button>Delete</button>
+                        </div>
+                        <div class="col-6">
+                            Second item
+                        </div>
+                        <div class="col-3">
+                            <button>Done</button>
+                        </div>
+                        <div class="col-3">
+                            <button>Delete</button>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
 </body>
+
 </html>
