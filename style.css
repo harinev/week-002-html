@@ -1,16 +1,4 @@
-@media (min-width: 39.125em) { }
-
-@media (min-width: 30em) { }
-
-@media (max-width: 39.0625em) { }
-
-@media (min-width: 39.125em) { }
-
-@media (min-width: 60em) { }
-
-@media (min-width: 75em) { }
-
-
+@media (min-width: 39.125em) { 
 
 body {
     background-color: #62DFFF;
@@ -18,17 +6,20 @@ body {
 
 h1 {
     font-family:Comic Sans, Comic Sans MS, cursive  ;
+    align-content: center;
 }
 form {
     width: 30%;
-    float: center;
-    margin: 0px;
+    align-content: stretch;
+    margin: 0px 10px 5px 10px;
+    padding-left: 10%;
+    display: block;
 }
 
 .formtext{
     background-color: lavender;
-    border: 0;
-    width: 50%;
+    border: 40;
+    width: 200px;
     height: 30px;
 
 }
@@ -52,3 +43,46 @@ button:hover {
     color: white;
     font-family:Comic Sans, Comic Sans MS, cursive ; 
 }
+
+}
+
+
+
+body {
+    
+    margin: 15%
+    }
+    
+    @media only screen and (min-width:600px){
+        body {
+            
+            margin:25%
+        }
+    }
+    @media only screen and (max-width:1200px){
+        p {
+            
+            margin:20%
+        }
+    }
+    .cat-list{
+        font-size:50%
+    }
+    @media only screen and (max-width:1000px){
+        p {
+            
+            margin: 20%
+        }
+    }
+    @media only screen and (max-width:800px){
+        p {
+            
+            margin: 10%
+        }
+    }
+     @media only screen and (max-width:500px){ */
+         p {
+            
+            margin:3%
+        }
+    } 
