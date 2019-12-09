@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Harine's ToDo List</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
@@ -23,13 +24,18 @@
     <br>
     <br>
 
-    <div>
-        <form>
-           <div>
-                <input type="text" placeholder="Add your item here" class="formtext" />
+    <div class="container">
+        <div class="row">
+            <div class= "col-6">
+                    <input type="text" placeholder="Add your item here" class="formtext" />
+            </div>
+            <div class="col-3">
                 <button>Add</button>
             </div>
-        </form>
+            <div class="col-3">
+                <button>Update</button>
+            </div>
+        </div>
     </div>
     <br />
     <div>
@@ -54,8 +60,8 @@
             <div class="col-12 col-sm-6">
                 <p>Pending Tasks</p>
                 First row and column
-                <button>add</button>
-                <button>delete</button>
+                <button>Modify</button>
+                <button>Add</button>
             </div>
             </div>
         
